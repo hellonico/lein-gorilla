@@ -31,7 +31,7 @@
       `(g/run-gorilla-server {:port ~port
                               :ip ~ip
                               :nrepl-port ~nrepl-port
-                              :version ~gorilla-version
+                              ; :version ~gorilla-version
                               :project ~project-name
                               :gorilla-options ~gorilla-options})
       '(require 'gorilla-repl.core))))
